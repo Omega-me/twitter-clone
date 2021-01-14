@@ -1,0 +1,23 @@
+.feed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
+  height: 100vh;
+  background-color: #f7f9fa;
+}
+
+@media all and (max-width: 992px) {
+  .feed {
+    -ms-grid-columns: 3fr 1fr;
+        grid-template-columns: 3fr 1fr;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .feed {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=Feed.css.map */

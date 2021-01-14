@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;CAO1B;;AANC,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EALlC,AAAA,KAAK,CAAC;IAMF,qBAAqB,EAAE,OAAO;GAKjC;;;AAHC,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EARlC,AAAA,KAAK,CAAC;IASF,qBAAqB,EAAE,GAAG;GAE7B",
+    "sources": [
+        "Feed.scss",
+        "../../App/_variables.scss"
+    ],
+    "names": [],
+    "file": "Feed.css"
+}

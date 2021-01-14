@@ -1,0 +1,16 @@
+.posts {
+  overflow-y: scroll;
+  /* hide scrollbar for Chrome, Safari and Opera */
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /*IE and Edge*/
+  scrollbar-width: none;
+  /* Firefox*/
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.posts::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=Posts.css.map */

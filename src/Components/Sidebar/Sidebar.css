@@ -1,0 +1,12 @@
+.sidebar {
+  padding: 10px;
+}
+
+.sidebar .sidebar__container {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+/*# sourceMappingURL=Sidebar.css.map */

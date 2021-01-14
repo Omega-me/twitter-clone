@@ -1,0 +1,182 @@
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.post .post__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+
+.post .post__wrapper:hover {
+  background-color: #f7f9fa;
+}
+
+.post .post__wrapper:hover + .post__image {
+  background-color: #f7f9fa;
+}
+
+.post .post__wrapper .post__block {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.post .post__wrapper .post__block .post__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .post__wrapper .post__block .post__container .post__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .post__wrapper .post__block .post__container .post__info h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 768px) {
+  .post .post__wrapper .post__block .post__container .post__info h3 {
+    font-size: 13px;
+  }
+}
+
+.post .post__wrapper .post__block .post__container .post__info p {
+  font-size: 19px;
+  color: grey;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 768px) {
+  .post .post__wrapper .post__block .post__container .post__info p {
+    font-size: 14px;
+  }
+}
+
+.post .post__wrapper .post__block .post__caption {
+  font-size: 0.9rem;
+}
+
+.post .post__image {
+  background-color: white;
+  padding: 0 20px 0px 20px;
+}
+
+.post .post__image:hover {
+  background-color: #f7f9fa;
+}
+
+.post .post__image img {
+  display: block;
+  margin-left: auto;
+  width: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 20px;
+}
+
+.post .post__image .post__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.post .post__image .post__buttons .post__butt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier1:hover {
+  color: #1da1f2 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier1:hover + p {
+  color: #1da1f2 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier2:hover {
+  color: #00a573 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier2:hover + p {
+  color: #00a573 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier3:hover {
+  color: #d40035 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier3:hover + p {
+  color: #d40035 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier4:hover {
+  color: #1da1f2 !important;
+}
+
+.post .post__image .post__buttons .post__butt .post__button--modifier4:hover + p {
+  color: #1da1f2 !important;
+}
+
+.post .post__image .post__buttons p {
+  color: grey;
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=Post.css.map */

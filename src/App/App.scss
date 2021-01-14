@@ -1,0 +1,14 @@
+@import './variables';
+.app {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  @media all and (max-width: 768px) {
+    grid-template-columns: 15% 85%;
+  }
+  @media all and (max-width: 576px) {
+    grid-template-columns: 20% 80%;
+  }
+  @media all and (max-width: 450px) {
+    grid-template-columns: 25% 75%;
+  }
+}

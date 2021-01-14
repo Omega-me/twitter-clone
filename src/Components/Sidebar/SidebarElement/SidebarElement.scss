@@ -1,0 +1,28 @@
+@import '../../../App/variables';
+.sidebarElement {
+  display: flex;
+  align-items: center;
+  padding: 7px 20px;
+  margin-top: 5px;
+  cursor: pointer;
+  width: fit-content;
+  transition: all 0.2s ease;
+  &:hover {
+    color: $primary;
+    background-color: rgba($color: #1da1f2, $alpha: 0.15);
+    border-radius: 50px;
+  }
+  @media all and (max-width: 768px) {
+    padding: 7px;
+  }
+  h3 {
+    margin-left: 10px;
+    font-size: 19px;
+    @media all and(max-width:768px) {
+      display: none;
+    }
+  }
+}
+.sidebarElement--active {
+  color: $primary;
+}

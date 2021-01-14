@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,MAAM;EAClB,iDAAiD;EAIjD,6CAA6C;EAC7C,kBAAkB,EAAE,IAAI;EAAE,eAAe;EACzC,eAAe,EAAE,IAAI;EAAE,YAAY;EACnC,WAAW,EAAE,mBAAmB;EAChC,YAAY,EAAE,mBAAmB;CAClC;;AAXD,AAGE,MAHI,AAGH,mBAAmB,CAAC;EACnB,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "Posts.scss",
+        "../../../App/_variables.scss"
+    ],
+    "names": [],
+    "file": "Posts.css"
+}

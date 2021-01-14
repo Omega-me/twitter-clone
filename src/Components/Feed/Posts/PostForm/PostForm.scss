@@ -1,0 +1,72 @@
+@import '../../../../App/variables';
+.postForm {
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+  .postForm__input {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    input {
+      flex: 1;
+      border: none;
+      padding: 15px;
+      font-size: 19px;
+      outline: none;
+      border-bottom: 1px solid lightgray;
+    }
+  }
+  .postForm__userInfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    place-items: center;
+    @media all and (max-width: 992px) {
+      grid-template-columns: 1fr;
+    }
+    input {
+      // padding: 15px;
+      // outline: none;
+      // border: none;
+      // border-bottom: 1px solid lightgray;
+      flex: 0.5;
+      padding: 10px;
+      font-size: 12px;
+      outline: none;
+      border: 1px solid $primary;
+      border-radius: 50px;
+      margin-left: 7%;
+      &::placeholder {
+        color: $primary;
+      }
+    }
+  }
+  .postForm__submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    input {
+      flex: 0.5;
+      padding: 10px;
+      font-size: 12px;
+      outline: none;
+      border: 1px solid $primary;
+      border-radius: 50px;
+      margin-left: 7%;
+      &::placeholder {
+        color: $primary;
+      }
+    }
+  }
+}
+.postForm--modifier {
+  display: none;
+}

@@ -1,0 +1,13 @@
+@import '../../App/variables';
+.feed {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  height: 100vh;
+  background-color: #f7f9fa;
+  @media all and (max-width: 992px) {
+    grid-template-columns: 3fr 1fr;
+  }
+  @media all and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}

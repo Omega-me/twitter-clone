@@ -1,0 +1,24 @@
+@import '../../../App/variables';
+.widgets {
+  background-color: white;
+  .widget__constainer {
+    background-color: white;
+    overflow-y: auto;
+    padding: 20px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    /* hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none; /*IE and Edge*/
+    scrollbar-width: none; /* Firefox*/
+    @media all and (max-width: 992px) {
+      display: none;
+    }
+    .widgets__buttons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}

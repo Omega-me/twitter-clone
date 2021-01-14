@@ -1,0 +1,124 @@
+.postForm {
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+.postForm .postForm__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.postForm .postForm__input input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  padding: 15px;
+  font-size: 19px;
+  outline: none;
+  border-bottom: 1px solid lightgray;
+}
+
+.postForm .postForm__userInfo {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  place-items: center;
+}
+
+@media all and (max-width: 992px) {
+  .postForm .postForm__userInfo {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.postForm .postForm__userInfo input {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #1da1f2;
+  border-radius: 50px;
+  margin-left: 7%;
+}
+
+.postForm .postForm__userInfo input::-webkit-input-placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__userInfo input:-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__userInfo input::-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__userInfo input::placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.postForm .postForm__submit input {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #1da1f2;
+  border-radius: 50px;
+  margin-left: 7%;
+}
+
+.postForm .postForm__submit input::-webkit-input-placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__submit input:-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__submit input::-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.postForm .postForm__submit input::placeholder {
+  color: #1da1f2;
+}
+
+.postForm--modifier {
+  display: none;
+}
+/*# sourceMappingURL=PostForm.css.map */

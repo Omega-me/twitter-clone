@@ -1,0 +1,119 @@
+@import '../../../../App/variables';
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  .post__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    &:hover {
+      background-color: #f7f9fa;
+    }
+    &:hover + .post__image {
+      background-color: #f7f9fa;
+    }
+    .post__block {
+      flex: 1;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      .post__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .post__info {
+          display: flex;
+          align-items: center;
+          h3 {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            font-size: 17px;
+            white-space: nowrap;
+            @media all and (max-width: 768px) {
+              font-size: 13px;
+            }
+          }
+          p {
+            font-size: 19px;
+            color: grey;
+            white-space: nowrap;
+            @media all and (max-width: 768px) {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .post__caption {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .post__image {
+    background-color: white;
+    // border-bottom: 1px solid lightgray;
+    padding: 0 20px 0px 20px;
+
+    &:hover {
+      background-color: #f7f9fa;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      width: 90%;
+      object-fit: contain;
+      border-radius: 20px;
+    }
+    .post__buttons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 15px;
+      .post__butt {
+        display: flex;
+        align-items: center;
+        .post__button--modifier1 {
+          &:hover {
+            color: $primary !important;
+          }
+          &:hover + p {
+            color: $primary !important;
+          }
+        }
+        .post__button--modifier2 {
+          &:hover {
+            color: rgb(0, 165, 115) !important;
+          }
+          &:hover + p {
+            color: rgb(0, 165, 115) !important;
+          }
+        }
+        .post__button--modifier3 {
+          &:hover {
+            color: rgb(212, 0, 53) !important;
+          }
+          &:hover + p {
+            color: rgb(212, 0, 53) !important;
+          }
+        }
+        .post__button--modifier4 {
+          &:hover {
+            color: $primary !important;
+          }
+          &:hover + p {
+            color: $primary !important;
+          }
+        }
+      }
+      p {
+        color: grey;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
